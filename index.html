@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <div class="main-left">
+          <div class="main-list">
+            <a href="" class="main-item">Home</a>
+            <a href="" class="main-item">Services</a>
+            <a href="" class="main-item">News</a>
+            <a href="" class="main-item">Blog</a>
+            <a href="" class="main-item">Contact</a>
+          </div>
+          <div class="main-icon__list">
+            <i class="fa-solid fa-list"></i>
+          </div>
+        </div>
+        <div class="main-right">
+          <div class="main-right__container">
+            <div class="main-logo">
+              <img src="./images/logoNCC 1.png" alt="" class="main-img" />
+            </div>
+            <div class="main-header">
+              <h3 class="main-heading">Lorem ipsum dolor sit asmet?</h3>
+              <p class="main-desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                tristique consequat placerat. Vestibulum auctor pellentesque
+                sem, eu posuere erat hendrerit quis. Maecenas vel consequat
+                turpis. Nam facilisis, ligula in mattis sodales, augue justo
+                tristique nulla, sed lacinia ante eros ut mi. Morbi vitae diam
+                augue. Aliquam vel mauris a nibh auctor commodo. Praesent et
+                nisi eu justo eleifend convallis. Quisque suscipit maximus
+                vestibulum. Phasellus congue mollis orci, sit amet luctus augue
+                tristique eu. Donec vulputate odio neque, sed semper turpis
+                pellentesque a.
+              </p>
+            </div>
+            <div class="main-content">
+              <div class="main-content__list">
+                <div class="main-content__item">
+                  <h2 class="main-content__heading">
+                    Lorem ipsum dolor sit amet
+                  </h2>
+                  <div class="main-content__logo">
+                    <img src="./images/css-icon 1.png" alt="" />
+                  </div>
+                  <p class="main-content__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    non dui sodales, faucibus libero ut, posuere felis. Donec
+                    imperdiet suscipit accumsan. Aenean consequat condimentum
+                    velit ut tempor. Nam porta massa in metus bibendum congue.
+                    Pellentesque ultrices liquam egestas nunc at ullamcorper
+                    ultricies. Donec feugiat velit nulla, vel sodales est
+                    ullamcorper id. Aenean consequat condimentum velit ut
+                    tempor. Nam porta massa in metus bibendum congue.
+                    Pellentesque ultrices vestibulum mattis.
+                  </p>
+                </div>
+                <div class="main-content__item">
+                  <h2 class="main-content__heading">
+                    Lorem ipsum dolor sit amet
+                  </h2>
+                  <div class="main-content__logo">
+                    <img src="./images/html-icon 1.png" alt="" />
+                  </div>
+                  <p class="main-content__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    non dui sodales, faucibus libero ut, posuere felis. Donec
+                    imperdiet suscipit accumsan. Aenean consequat condimentum
+                    velit ut tempor. Nam porta massa in metus bibendum congue.
+                    Pellentesque ultrices liquam egestas nunc at ullamcorper
+                    ultricies. Donec feugiat velit nulla, vel sodales est
+                    ullamcorper id. Aenean consequat condimentum velit ut
+                    tempor. Nam porta massa in metus bibendum congue.
+                    Pellentesque ultrices vestibulum mattis.
+                  </p>
+                </div>
+                <div class="main-content__item">
+                  <h2 class="main-content__heading">
+                    Lorem ipsum dolor sit amet
+                  </h2>
+                  <div class="main-content__logo">
+                    <img src="./images/url-icon 1.png" alt="" />
+                  </div>
+                  <p class="main-content__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    non dui sodales, faucibus libero ut, posuere felis. Donec
+                    imperdiet suscipit accumsan. Aenean consequat condimentum
+                    velit ut tempor. Nam porta massa in metus bibendum congue.
+                    Pellentesque ultrices liquam egestas nunc at ullamcorper
+                    ultricies. Donec feugiat velit nulla, vel sodales est
+                    ullamcorper id. Aenean consequat condimentum velit ut
+                    tempor. Nam porta massa in metus bibendum congue.
+                    Pellentesque ultrices vestibulum mattis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">Copyright © 2021</footer>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .querySelector('.main-icon__list')
+        .addEventListener('click', function () {
+          var mainList = document.querySelector('.main-list');
+          if (mainList.style.display === 'none') {
+            mainList.style.display = 'flex';
+          } else {
+            mainList.style.display = 'none';
+          }
+        });
+    </script>
+  </body>
+</html>
